@@ -55,7 +55,27 @@ npm run build
 # Project structure
 
 ```
-TODO
+├── /.github
+│   └── /workflows
+│           ├── build.yml
+│           └── deploy.yml
+├── /public
+│       ├── acho.png
+│       └── ground.png
+├── /src
+│   ├── main.ts
+│   ├── vite-env.d.ts
+│   └── /scenes
+│          ├── game.scene.ts
+│          └── preloader.scene.ts
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.json
+└── vite.config.ts
 ```
 
 > You can remove the assets within the `public` directory, but I recommend you first run the project once and make sure everything is installed and running properly.
