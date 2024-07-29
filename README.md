@@ -1,4 +1,4 @@
-A modern Phaser 3 template: Develop your game using Typescript, keep your codebase clean with ESLint, and enjoy a 
+A modern Phaser 3 template: Phaser 3 + TypeScript + Vite + ESLint + GitHub Pages
 
 ---
 
