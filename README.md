@@ -53,11 +53,11 @@ Go to your browser and navigate to http://localhost:5173. You should see this be
 │       ├── acho.png
 │       └── ground.png
 ├── /src
+│   ├── /scenes
+│   │      ├── game.scene.ts
+│   │      └── preloader.scene.ts
 │   ├── main.ts
-│   ├── vite-env.d.ts
-│   └── /scenes
-│          ├── game.scene.ts
-│          └── preloader.scene.ts
+│   └── vite-env.d.ts
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
