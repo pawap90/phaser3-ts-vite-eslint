@@ -1,5 +1,4 @@
 [![Deploy](https://github.com/pawap90/phaser3-ts-vite-eslint/actions/workflows/deploy.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-vite-eslint/actions/workflows/deploy.yml)
-
 [![Build](https://github.com/pawap90/phaser3-ts-vite-eslint/actions/workflows/build.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-vite-eslint/actions/workflows/build.yml)
 
 A modern Phaser 3 template: Phaser 3 + TypeScript + Vite + ESLint + GitHub Pages
