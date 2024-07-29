@@ -1,7 +1,9 @@
 {
   "name": "phaser3-ts-vite-eslint",
-  "private": true,
+  "description": "A modern Phaser 3 template with TypeScript, Vite & ESLint. Integrated with GitHub Actions for CI/CD.",
   "version": "1.0.0",
+  "author": "Paula Santamaría",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
