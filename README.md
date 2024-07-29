@@ -11,8 +11,6 @@ A modern Phaser 3 template: Develop your game using Typescript, keep your codeba
 - [ESLint](#eslint)
 - [NPM Scripts](#npm-scripts)
 - [GitHub Pages](#github-pages)
-  - [Happy coding!](#happy-coding)
-
 
 # Dependencies
 - [Node.js](https://nodejs.org/en/)
@@ -44,14 +42,6 @@ Go to your browser and navigate to http://localhost:5173. You should see this be
 
 ![Acho the pup bouncing around](https://i.imgur.com/bYVcrSr.gif)
 
-## Production build
-
-If you wish to publish your project somewhere, create the production build using the following command:
-
-```sh
-npm run build
-```
-
 # Project structure
 
 ```
@@ -81,7 +71,7 @@ npm run build
 > You can remove the assets within the `public` directory, but I recommend you first run the project once and make sure everything is installed and running properly.
 
 # TypeScript
-You can find TypeScript's configuration in `tsconfig.json`. To keep the codebase safe, you'll notice the flag `strict` is set to true. This [enables all strict type checking options](https://www.typescriptlang.org/tsconfig/#strict), like `noImplicitAny` and `alwaysStrict`. Feel free to disable `strict` and add your preferred configurations.
+You can find TypeScript's configuration in `tsconfig.json`. To keep the codebase safe, you'll notice the flag `strict` is set to true. This [enables all strict type checking options](https://www.typescriptlang.org/tsconfig/#strict), like `noImplicitAny` and `alwaysStrict`. Feel free to add your preferred configurations.
 
 # Vite
 Vite provides the development server and the production build. 
@@ -130,9 +120,24 @@ A brief description of the scripts you'll find in the `package.json`:
 - **lint:fix**: Runs the linter and executes automatic fixes. It'll also print any issues that couldn't be solved.
 
 # GitHub Pages
-This template includes a simple CI/CD workflow that allows you to easily deploy your game to GitHub Pages. 
+This template includes a couple of GitHub Actions workflows:
+- `build.yml`: It builds the project, runs the linter and the TypeScript compiler to check for errors. Triggered manually or when a PR is opened targeting the `main` branch.
+- `deploy.yml`: This workflow is triggered when a push is made to the `main` branch. It deploys the production build to GitHub Pages.
 
-TODO
+You can see this template's latest deploy to GitHub Pages here: [pawap90.github.io/phaser3-ts-vite-eslint](https://pawap90.github.io/phaser3-ts-vite-eslint/).
+
+To use the **GitHub Pages** in your own repo, follow these steps:
+
+1. In `vite.config.ts`, update the `base` property with your repo's name:
+
+```diff
+export default defineConfig({
+-    base: '/phaser3-ts-vite-eslint/'
++    base: '/your-repo-name/'
+});
+```
+
+2. Enable GitHub Pages in your repo's settings. To find this option, go to your repo's main page, click on the "Settings" tab, and click on "Pages" in the left sidebar.
 
 <!-- no toc -->
 ## Happy coding! 
