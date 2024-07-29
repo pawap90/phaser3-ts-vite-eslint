@@ -1,4 +1,13 @@
+[![Deploy](https://github.com/pawap90/phaser3-ts-vite-eslint/actions/workflows/deploy.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-vite-eslint/actions/workflows/deploy.yml)
+
+[![Build](https://github.com/pawap90/phaser3-ts-vite-eslint/actions/workflows/build.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-vite-eslint/actions/workflows/build.yml)
+
 A modern Phaser 3 template: Phaser 3 + TypeScript + Vite + ESLint + GitHub Pages
+
+[![Phaser Version 3.80.1](https://img.shields.io/badge/Phaser%20-%20v3.80.1%20-%20%23404951?labelColor=%2399388c&style=flat-square)](./package.json#L24)
+[![TypeScript Version 5.2.2](https://img.shields.io/badge/TypeScript%20-%20v5.2.2%20-%20%23404951?labelColor=%233178c6&style=flat-square)](./package.json#L21)
+[![Vite Version 5.3.4](https://img.shields.io/badge/Vite%20-%20v5.3.4%20-%20%23404951?labelColor=%232e5e82&style=flat-square)](./package.json#L20)
+[![ESLint Version 8.57.0](https://img.shields.io/badge/ESLint%20-%20v8.57.0%20-%20%23404951?labelColor=%234930bd&style=flat-square)](./package.json#L19)
 
 ---
 
