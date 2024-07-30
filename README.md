@@ -8,6 +8,8 @@ A modern Phaser 3 template: Phaser 3 + TypeScript + Vite + ESLint + GitHub Pages
 [![Vite Version 5.3.4](https://img.shields.io/badge/Vite%20-%20v5.3.4%20-%20%23404951?labelColor=%23ffc820&style=flat-square)](./package.json#L20)
 [![ESLint Version 8.57.0](https://img.shields.io/badge/ESLint%20-%20v8.57.0%20-%20%23404951?labelColor=%234930bd&style=flat-square)](./package.json#L19)
 
+![A modern phaser 3 tempalte with typescript, vite, eslint, and GitHub pages](https://github.com/user-attachments/assets/3718c0b8-fad6-4dda-9ad1-54bfb496f128)
+
 ---
 
 **Table of contents**
